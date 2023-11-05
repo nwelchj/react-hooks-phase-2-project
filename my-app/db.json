@@ -1,0 +1,41 @@
+{
+  "Gecko": [
+    {
+      "id": 1,
+      "type": "Crested Gecko", 
+      "image" : "dfksdfkisdf",
+      "breed" : "Domation"
+    },
+    {
+      "id": 2,
+      "type": "Crested Gecko", 
+      "image" : "dfksdfkisdf",
+      "breed" : "Domation"
+    }
+  ],
+
+    "snakes":[
+      {
+        "id": 1,
+        "type" : "Pythyon",
+        "image" :  "wjhfdkjsdhf0",
+        "breed" :  "ball python"
+      },
+      {
+        "id": 2,
+        "type" : "Pythyon",
+        "image" :  "wjhfdkjsdhf0",
+        "breed" :  "ball python"
+      }
+    ],
+  
+  "lizard":[
+    {
+      "id" : 1,
+      "type" : "Breeded Dragon", 
+      "image" : "oijfosdffoijsd",
+      "breed" : "Hypo zero"
+    }
+  ]
+    
+}
