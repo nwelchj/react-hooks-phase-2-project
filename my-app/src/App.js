@@ -1,4 +1,4 @@
-import React, {useEffect}  from 'react';
+import React, { useState}  from 'react';
 import { Switch, Route} from 'react-router-dom';
 import "./style.css"
 import Snakes from "./Componets/Snakes";
@@ -12,15 +12,12 @@ import NavBar from "./Componets/Navbar";
 
 function App() {
  //const [page,  setPage] = useState(Home)
-
-
-useEffect(() => {
-  fetch(`http://localhost:3000`)
-  .then(res =>res.json())
-  .then(json => (console.log(json)))
-  
+ const [geckos, setgecko ] = useState()
+ const [lizard, setLizard] = useState()
+ //const [snakes, setSnake] =  useState()
+ const [resouresetype, setResoursetype] = useState('')
  
-},[])
+  
 
   return (
 
@@ -31,7 +28,7 @@ useEffect(() => {
           Rept-i-book
         </title>
       </header>
-      <NavBar /> 
+      <NavBar resouresetype ={resouresetype} setResoursetype={setResoursetype}/> 
         <Switch>
           
          
@@ -39,13 +36,13 @@ useEffect(() => {
             <Submit />
           </Route>
           <Route path = "/Snakes">
-            <Snakes />
+            <Snakes/>
           </Route>
           <Route path = "/Geckos">
-            <Geckos />
+            <Geckos setgecko={setgecko} geckos={geckos}/>
           </Route>
-          <Route path = "/Lizards" >
-            <Lizard />
+          <Route path = "/Lizards"  >
+            <Lizard setLizard={setLizard} lizard={lizard} />
           </Route>
           <Route exact path = "/">
             <Home />
