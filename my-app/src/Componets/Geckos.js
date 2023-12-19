@@ -27,7 +27,7 @@ if (!isLoaded)return <h3>loading...</h3>
            key={gecko.id}
            type={gecko.type}
            image={gecko.image}
-          breed={gecko.breed}
+           breed={gecko.breed}
       />
         
    ));

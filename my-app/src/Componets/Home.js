@@ -21,7 +21,7 @@ function Home(){
     return(
         <div id="home">
             <h1>Home</h1>
-            <p> This is my application that alows a usetr to upload pictures on the reptiles</p>
+            <p> This is my application that alows a user to upload pictures on the reptiles</p>
         </div>
     )
 }

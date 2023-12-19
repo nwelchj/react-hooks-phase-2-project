@@ -1,9 +1,9 @@
 import React,{useEffect, useState} from "react"
 import CardTemplet from "./Cardtemp";
 
-function Lirzards(){
+function Lirzards({lizard,setLizard}){
     const [isLoaded, setisLoaded] = useState(false)
-    const [lizard, setLizard] = useState()
+   
 
     useEffect(() => {
        
@@ -34,7 +34,7 @@ if (!isLoaded)return <h3>loading...</h3>
     
     return(
         <div id="lizards">
-            <h1>Lirzards</h1>
+            <h2>Lirzards</h2>
             <div id="lizardcard"> {Lirzardcards}</div>
           
         </div>

@@ -29,7 +29,7 @@ if (!isLoaded)return <h3>loading...</h3>
    ));
     return(
         <div id="snakes">
-            <h1>Snakes</h1>
+            <h2>Snakes</h2>
             <div id="snakecard">{snakeCard}</div>
         </div>
     );
