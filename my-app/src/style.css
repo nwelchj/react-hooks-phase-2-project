@@ -47,7 +47,7 @@
   nav {
     background-color: black;
     align-items: center;
-    padding-left: 400px;
+    padding-left: 600px;
   }
   
   nav a {
@@ -80,7 +80,16 @@
     text-align: center;
     padding: 1rem;
   }
+
+  #Form{
+    color: black;
+    display: inline;
+  }
   
+  #drop{
+    color: black;
+    display: block;
+  }
  
   
   
@@ -123,7 +132,7 @@
   }
 
   div#geckocards, div#lizardcard, div#snakecard{
-    padding-left: 470px;
+    padding-left: 700px;
     align-items: center;
   }
   
