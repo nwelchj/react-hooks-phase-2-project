@@ -1,5 +1,5 @@
 ﻿# Rep-Te-Book
-This application is a play on Facebook but tailored to reptile owners. One can post a picture of their favorite reptiles and like images. A person can like the images they deem worthy. The last thing I worked on was making it so someone could post an image. So posting the feature of the application doesn't work at the moment
+This application is a play on Facebook but tailored to reptile owners done for Flatiron collage. One can post a picture of their favorite reptiles and like images. A person can like the images they deem worthy. The last thing I worked on was making it so someone could post an image. So posting the feature of the application doesn't work at the moment
 
 
 # GitHub  Link
