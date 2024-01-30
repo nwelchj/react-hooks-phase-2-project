@@ -20,8 +20,12 @@ function Home(){
     
     return(
         <div id="home">
-            <h1>Home</h1>
-            <p> This is my application that alows a user to upload pictures on the reptiles</p>
+            <h1>Rep-E-Book</h1>
+            <p> This is a project done for Flatiorn school to teech me about react and javavscript!
+                           It is a play on facebook for reptile lovers like myself.
+            </p>
+            
+            <p>The nav bar alows you to select wich page you want to go too</p>
         </div>
     )
 }

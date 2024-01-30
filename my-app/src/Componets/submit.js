@@ -6,7 +6,7 @@ function Submit() {
       const [selectedOption, setSelectedOption] = useState("");
       const [type, setType] = useState("");
       const [breed, setBreed] = useState("");
-      //const [Image, setImage] = useState([null])
+      const [image, setImage] = useState("")
       
     
       
@@ -31,7 +31,7 @@ function Submit() {
       function handleSubmit(e){
         e.preventDefault();
         console.log("clicked")
-        const Post ={ type, breed};
+        const Post ={ type, breed, image};
         console.log(Submit)
     
         fetch(`http://localhost:3000/${selectedOption}`,{
@@ -72,7 +72,17 @@ function Submit() {
             required
             
             onChange={(e)=> setType(e.target.value)}
-            />Type 
+            />
+          </label>
+
+          <label>
+                Image url
+            <input
+            type = "text"
+            required
+            onChange={(e)=> setImage(e.target.value)}
+            />
+            
           </label>
     
         

@@ -10,7 +10,7 @@ function CardTemplet ({id,type,breed,image }){
     return(
         <div className="CardTemplet" id={id}>
             <h3>{type}</h3>
-            <img className="image" src={image} alt={type}/>
+            <img className="image" src={image} alt="Null"/>
             <p>Breed : {breed}</p>
             <button className="button" onClick={handleLikeClick} style={{ fontSize: '20px' }}>
                 {liked ? '❤️' : '🤍'} {liked ? 'Unlike' : 'Like'}
